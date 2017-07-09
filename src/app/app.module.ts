@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { CalculatorComponent } from './calculator/calculator.component';
 import { AboutComponent } from './about/about.component';
 import { ErrorpageComponent } from './errorpage/errorpage.component';
+import { DropdownDirective } from './shared/dropdown.directive';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ErrorpageComponent } from './errorpage/errorpage.component';
     HeaderComponent,
     CalculatorComponent,
     AboutComponent,
-    ErrorpageComponent
+    ErrorpageComponent,
+    DropdownDirective
   ],
   imports: [
     BrowserModule,
